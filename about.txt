@@ -16,30 +16,26 @@
             </a>
             <div class="nav__menu">
                 <a href="portfolio.html" class="nav__link" data-text="Проекты">Проекты</a>
-                <a href="about.html" class="nav__link nav__link--active" data-text="Обо мне">Обо мне</a>
+                <a href="about.html" class="nav__link" data-text="Обо мне">Обо мне</a>
                 <a href="contact.html" class="nav__link nav__link--cta" data-text="Связаться">Связаться</a>
             </div>
             </nav>
     </header>
 
     <main>
-        <section class="section section-padding">
+        <section class="section">
             <div class="container">
-                <div class="hero__text-content">
-                    <h1 class="hero__title">Дизайн систем,<br>которые работают</h1>
-                    <p class="hero__subtitle">Разработчик фирменных стилей</p>
+                <div class="about-header">
+                    <h1 class="heading-1 mb-2">Дизайн систем,<br>которые работают</h1>
+                    <p class="about-subtitle">Разработчик фирменных стилей</p>
                 </div>
-            </div>
-        </section>
 
-        <section class="section section-padding">
-            <div class="container">
-                <div class="about-layout">
+                <div class="about-grid">
                     <div class="about-photo">
-                        <img src="images/about/about.jpg" alt="Фото Алексея Петрушина" style="max-width: 300px; border-radius: 6px;">
+                        <img src="images/about/about.jpg" alt="Фото Алексея Петрушина">
                     </div>
                     <div class="about-info">
-                        <h2 class="section-title">Алексей Петрушин</h2>
+                        <h2 class="heading-2 mb-1">Алексей Петрушин</h2>
                         <p class="mb-2">Привет! Я Алексей, веб-дизайнер и разработчик фирменных стилей из Санкт-Петербурга. Занимаюсь созданием эффективных и запоминающихся визуальных решений для бизнеса.</p>
                         <p class="mb-2">Моя цель — помогать компаниям выделяться на рынке с помощью качественного дизайна. Я верю, что хорошо продуманный фирменный стиль является ключом к успеху любого бренда.</p>
                         <p>В своей работе я придерживаюсь принципов простоты, функциональности и эстетики. Мне нравится создавать не просто красивые картинки, а работающие инструменты для достижения бизнес-целей.</p>
@@ -48,9 +44,9 @@
             </div>
         </section>
 
-        <section class="section section-padding">
+        <section class="section">
             <div class="container">
-                <h2 class="section-title">Опыт</h2>
+                <h2 class="heading-2 mb-2">Опыт</h2>
                 <div class="timeline">
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
@@ -78,11 +74,12 @@
         </section>
     </main>
 
-    <footer class="footer">
+    
+<footer class="footer">
         <div class="container footer-content">
             <div class="footer__info">
                 <span>© <span id="current-year"></span> Алексей Петрушин</span>
-                <a href="mailto:alexeypetrushin11@gmail.com">alexeypetrushin11@gmail.com</a> </div>
+                <a href="mailto:your-email@example.com">alexeypetrushin11@gmail.com</a> </div>
             <nav class="footer__nav">
                 <a href="portfolio.html" class="footer__link">Проекты</a>
                 <a href="about.html" class="footer__link">Обо мне</a>

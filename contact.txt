@@ -23,19 +23,19 @@
     </header>
 
     <main>
-        <section class="hero section-padding hero-section--contact">
+        <section class="hero-section hero-section--contact section-padding">
             <div class="container">
-                <div class="hero__text-content">
-                    <h1 class="hero__title">Свяжитесь со мной</h1>
-                    <p class="hero__subtitle">Буду рад обсудить ваш проект или ответить на любые вопросы.</p>
+                <div class="hero-section__info">
+                    <h1 class="hero-section__title">Свяжитесь со мной</h1>
+                    <p class="hero-section__description">Буду рад обсудить ваш проект или ответить на любые вопросы.</p>
                 </div>
             </div>
         </section>
 
-        <section class="section section-padding">
+        <section class="contact-form-section section-padding">
             <div class="container">
                 <div class="contact-form-wrapper">
-                    <h2 class="section-title">Напишите мне</h2>
+                    <h2 class="contact-form-wrapper__title">Напишите мне</h2>
                     <form class="modern-form">
                         <div class="input-wrapper">
                             <svg class="input-icon" viewBox="0 0 24 24">
@@ -64,10 +64,10 @@
             </div>
         </section>
 
-        <section class="section section-padding">
+        <section class="contact-info-section section-padding">
             <div class="container">
                 <div class="contact-info-wrapper">
-                    <h2 class="section-title">Мои контакты</h2>
+                    <h2 class="contact-info-wrapper__title">Мои контакты</h2>
                     <p class="contact-info-wrapper__description">Вы также можете связаться со мной напрямую:</p>
                     <ul class="contact-list">
                         <li>
@@ -78,7 +78,7 @@
                         </li>
                         <li>
                             <svg viewBox="0 0 24 24">
-                                <path d="M20 19h-8v-8h8v8zm-10 0H4v-8h6v8zm10-10V5c0-1.1-.9-2-2-2H6c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2zm-8-2h6v6h-6v-6zm-8 0h4v6H4v-6z"/>
+                                <path d="M20 19h-8v-8h8v8zm-10 0H4v-8h6v8zm10-10V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-9c0-.6-.4-1-1-1h-3c-.6 0-1 .4-1 1v3c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v2c0 .6.4 1 1 1h3c.6 0 1-.4 1-1zm-2-8h-2c-.6 0-1-.4-1-1V5c0-.6.4-1 1-1h2c.6 0 1 .4 1 1v4c0 .6-.4 1-1 1z"/>
                             </svg>
                             <a href="tel:+79991234567">+7 999 123-45-67</a>
                         </li>
@@ -98,15 +98,19 @@
         <div class="container footer-content">
             <div class="footer__info">
                 <span>© <span id="current-year"></span> Алексей Петрушин</span>
-                <a href="mailto:alexeypetrushin11@gmail.com">alexeypetrushin11@gmail.com</a> </div>
+                <a href="mailto:alexeypetrushin11@gmail.com">alexeypetrushin11@gmail.com</a>
+            </div>
             <nav class="footer__nav">
                 <a href="portfolio.html" class="footer__link">Проекты</a>
                 <a href="about.html" class="footer__link">Обо мне</a>
                 <a href="contact.html" class="footer__link">Контакты</a>
-                </nav>
+            </nav>
         </div>
     </footer>
 
     <script src="scripts/main.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>

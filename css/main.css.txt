@@ -1142,13 +1142,22 @@ button:hover ~ .cursor,
 
 /* Contact page */
 .modern-form {
+
   max-width: 800px;
   margin: 0 auto;
+margin-top:2rem;
+margin-left:-0.5rem;
   padding: 4rem;
   background: rgba(250,250,250,0.8);
   backdrop-filter: blur(10px);
+border-radius:2.4rem;
 }
-
+.contact-list svg {
+    width: 20px; /* Убедитесь, что это значение установлено */
+    height: 20px; /* Убедитесь, что это значение установлено */
+    margin-right: var(--spacing-sm);
+    fill: var(--color-secondary);
+}
 .input-wrapper {
   position: relative;
   margin: 3rem 0;
@@ -1163,6 +1172,7 @@ button:hover ~ .cursor,
   height: 24px;
   opacity: 0.4;
   transition: opacity 0.3s ease;
+fill: var(--color-secondary);
 }
 
 .modern-input:focus ~ .input-icon {
