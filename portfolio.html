@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты | Алексей Петрушин</title>
+    <meta name="description" content="Портфолио работ графического дизайнера Алексея Петрушина.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="cursor"></div>
+
+    <header class="header">
+        <nav class="nav container">
+             <a href="index.html" class="nav__logo" aria-label="На главную">
+                Alexey Petrushin / STUDIO
+            </a>
+            <div class="nav__menu">
+                <a href="portfolio.html" class="nav__link nav__link--active" data-text="Проекты">Проекты</a> <a href="about.html" class="nav__link" data-text="Обо мне">Обо мне</a>
+                <a href="contact.html" class="nav__link nav__link--cta" data-text="Связаться">Связаться</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="portfolio-hero container">
+            <h1 class="portfolio-hero__title">Портфолио</h1>
+            </section>
+
+        <section class="portfolio-grid-section container-fluid section-padding">
+            <div class="portfolio-grid">
+                <a href="case-1.html" class="portfolio-item portfolio-item--1" data-category="Фирстиль ИИТА">
+                    <img src="images/projects/project1.jpg" alt="Фирстиль ИИТА" loading="lazy">
+                    <div class="portfolio-item__overlay">
+                        <h3>FinTech Ребрендинг</h3>
+                        <span>Брендинг</span>
+                    </div>
+                </a>
+                 <a href="case-2.html" class="portfolio-item portfolio-item--2" data-category="Фирстиль ЦАТ">
+                     <img src="images/projects/project2.jpg" alt="Фирстиль ЦАТ" loading="lazy">
+                     <div class="portfolio-item__overlay">
+                        <h3>Мобильная платформа</h3>
+                        <span>Веб-дизайн / UI/UX</span>
+                    </div>
+                </a>
+                 <a href="case-3.html" class="portfolio-item portfolio-item--3" data-category="Хатакон">
+                    <img src="images/projects/project3.jpg" alt="Хатакон" loading="lazy">
+                    <div class="portfolio-item__overlay">
+                        <h3>Веб-портал</h3>
+                        <span>UI/UX Дизайн</span>
+                    </div>
+                </a>
+                 <a href="case-4.html" class="portfolio-item portfolio-item--4" data-category="Юбилей ЦАТ">
+                    <img src="images/projects/project4.jpg" alt="Дизайн-система" loading="lazy">
+                     <div class="portfolio-item__overlay">
+                        <h3>Дизайн-система</h3>
+                        <span>Гайдлайны</span>
+                    </div>
+                </a>
+                <a href="case-5.html" class="portfolio-item portfolio-item--5" data-category="Фирстиль Машиноведение">
+                    <img src="images/projects/project5.jpg" alt="Кафедра Машиноведения" loading="lazy">
+                    <div class="portfolio-item__overlay">
+                        <h3>Кафедра Машиноведения</h3>
+                        <span>Идентика</span>
+                    </div>
+                </a>
+                 </div>
+        </section>
+
+         <section class="cta-section section-padding">
+            <div class="container">
+                <h2 class="cta-section__title">Понравились работы?</h2>
+                <p class="cta-section__subtitle">Свяжитесь со мной, и мы обсудим, как я могу помочь <br> вашему проекту.</p>
+                <a href="contact.html" class="button cta-section__button">Начать сотрудничество</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+         <div class="container footer-content">
+            <div class="footer__info">
+                <span>© <span id="current-year"></span> Алексей Петрушин</span>
+                <a href="mailto:your-email@example.com">alexeypetrushin11@gmail.com</a> </div>
+            <nav class="footer__nav">
+                <a href="portfolio.html" class="footer__link">Проекты</a>
+                <a href="about.html" class="footer__link">Обо мне</a>
+                <a href="contact.html" class="footer__link">Контакты</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

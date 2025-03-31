@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алексей Петрушин | Графический Дизайн и Брендинг</title>
+    <meta name="description" content="Портфолио графического дизайнера Алексея Петрушина. Разработка логотипов, фирменного стиля, веб-дизайна и визуальных концепций.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    </head>
+<body>
+    <div class="cursor"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo" aria-label="На главную">
+                Alexey Petrushin / STUDIO
+            </a>
+            <div class="nav__menu">
+                <a href="portfolio.html" class="nav__link" data-text="Проекты">Проекты</a>
+                <a href="about.html" class="nav__link" data-text="Обо мне">Обо мне</a>
+                <a href="contact.html" class="nav__link nav__link--cta" data-text="Связаться">Связаться</a>
+            </div>
+            </nav>
+    </header>
+
+    <main class="main-content">
+
+        <section class="hero container">
+            <div class="hero__text-content">
+                <h1 class="hero__title">
+                    Создаю визуальные <br> решения для брендов
+                </h1>
+                <p class="hero__subtitle">
+                    Графический дизайн, который помогает бизнесу <br> рассказывать свою историю и достигать целей.
+                </p>
+                <div class="hero__actions">
+                    <a href="portfolio.html" class="button">Смотреть работы</a>
+                    <a href="#services" class="button button--secondary">Услуги</a>
+                </div>
+            </div>
+            </section>
+
+        <section class="selected-works container section-padding">
+            <h2 class="section-title">Избранные проекты</h2>
+            <div class="works-grid">
+                <a href="case-1.html" class="work-item" aria-label="Подробнее о проекте FinTech">
+                    <div class="work-item__image-wrapper">
+                        <img src="images/projects/project1.jpeg" alt="Обложка проекта FinTech" class="work-item__image" loading="lazy">
+                    </div>
+                    <div class="work-item__caption">
+                        <h3 class="work-item__title">FinTech Ребрендинг</h3>
+                        <p class="work-item__category">Брендинг</p>
+                    </div>
+                </a>
+                <a href="case-2.html" class="work-item" aria-label="Подробнее о проекте Мобильная платформа">
+                    <div class="work-item__image-wrapper">
+                        <img src="images/projects/project2.jpeg" alt="Обложка проекта Мобильная платформа" class="work-item__image" loading="lazy">
+                    </div>
+                    <div class="work-item__caption">
+                        <h3 class="work-item__title">Мобильная платформа</h3>
+                        <p class="work-item__category">Веб-дизайн / UI/UX</p>
+                    </div>
+                </a>
+                 <a href="case-3.html" class="work-item" aria-label="Подробнее о проекте Веб-портал">
+                    <div class="work-item__image-wrapper">
+                        <img src="images/projects/project3.jpg" alt="Обложка проекта Веб-портал" class="work-item__image" loading="lazy">
+                    </div>
+                    <div class="work-item__caption">
+                        <h3 class="work-item__title">Веб-портал</h3>
+                        <p class="work-item__category">UI/UX Дизайн</p>
+                    </div>
+                </a>
+            </div>
+            <div class="works-footer">
+                <a href="portfolio.html" class="button button--secondary">Посмотреть все проекты</a>
+            </div>
+        </section>
+
+        <section class="services container section-padding" id="services">
+            <h2 class="section-title">Чем я могу помочь</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <h3 class="service-item__title">Брендинг и Фирменный стиль</h3>
+                    <p class="service-item__description">Создание уникальной визуальной идентичности: логотипы, палитры, типографика, гайдлайны.</p>
+                </div>
+                <div class="service-item">
+                    <h3 class="service-item__title">Веб-дизайн (UI/UX)</h3>
+                    <p class="service-item__description">Проектирование интуитивно понятных и эстетичных интерфейсов для сайтов и приложений.</p>
+                </div>
+                <div class="service-item">
+                    <h3 class="service-item__title">Графический дизайн</h3>
+                    <p class="service-item__description">Дизайн печатной продукции, презентаций, SMM-графики и других визуальных материалов.</p>
+                </div>
+                 </div>
+        </section>
+
+         <section class="cta-section section-padding">
+            <div class="container">
+                <h2 class="cta-section__title">Есть идея проекта?</h2>
+                <p class="cta-section__subtitle">Давайте создадим что-то особенное вместе. <br>Напишите мне, чтобы обсудить детали.</p>
+                <a href="contact.html" class="button cta-section__button">Обсудить проект</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer__info">
+                <span>© <span id="current-year"></span> Алексей Петрушин</span>
+                <a href="mailto:your-email@example.com">alexeypetrushin11@gmail.com</a> </div>
+            <nav class="footer__nav">
+                <a href="portfolio.html" class="footer__link">Проекты</a>
+                <a href="about.html" class="footer__link">Обо мне</a>
+                <a href="contact.html" class="footer__link">Контакты</a>
+                </nav>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
